@@ -74,5 +74,5 @@ Any questions feel free to contact me.
 Gonzalo Graf <grafgonzalo@gmail.com>
 
 
-<img width="314" alt="app-screenshot" src="https://github.com/user-attachments/assets/25e951a6-9723-4642-ac86-3b5482424693">
+<img width="314" alt="app-screenshot" src="https://github.com/user-attachments/assets/2f1cc970-a7c2-4793-aac0-3b7a7291a6d3">
 
