@@ -163,6 +163,46 @@ const DATA = [
       id: '8',
       title: 'Antartida',
       image:require('../../resources/images/inventory/8.png')
+    },
+    {
+      id: '9',
+      title: 'Sunset Valley',
+      image:require('../../resources/images/inventory/1.png')
+    },
+    {
+      id: '10',
+      title: 'Mountain Echo',
+      image:require('../../resources/images/inventory/2.png')
+    },
+    {
+      id: '11',
+      title: 'Starlit Night',
+      image:require('../../resources/images/inventory/3.png')
+    },
+    {
+      id: '12',
+      title: 'Desert Mirage',
+      image:require('../../resources/images/inventory/4.png')
+    },
+    {
+      id: '13',
+      title: 'Ocean Breeze',
+      image:require('../../resources/images/inventory/5.png')
+    },
+    {
+      id: '14',
+      title: 'Forest Dawn',
+      image:require('../../resources/images/inventory/6.png')
+    },
+    {
+      id: '15',
+      title: 'Aurora Borealis',
+      image:require('../../resources/images/inventory/7.png')
+    },
+    {
+      id: '16',
+      title: 'Twilight Glow',
+      image:require('../../resources/images/inventory/8.png')
     }
 ]
 
