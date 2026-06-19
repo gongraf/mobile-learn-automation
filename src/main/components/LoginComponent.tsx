@@ -61,8 +61,10 @@ export default function LoginComponent ({navigation}:any): React.JSX.Element {
                 paddingVertical: 10,
                 alignItems: 'center',
                 fontSize:18,
+                color: COLORS.text,
                 flex:1
               }}
+              placeholderTextColor={COLORS.placeholder}
               accessibilityLabel="emailField"
               testID="emailField"
               placeholder="Email"
@@ -87,9 +89,11 @@ export default function LoginComponent ({navigation}:any): React.JSX.Element {
                 //borderRadius: 12,
                 alignItems: 'center',
                 fontSize:18,
+                color: COLORS.text,
                 justifyContent: 'center',
                 flex:1
               }}
+              placeholderTextColor={COLORS.placeholder}
               secureTextEntry={showPassword} 
               accessibilityLabel="passwordField"
               testID="passwordField"

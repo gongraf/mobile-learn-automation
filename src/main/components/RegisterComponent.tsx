@@ -75,8 +75,10 @@ export default function RegisterComponent({navigation}:any): React.JSX.Element {
                 paddingVertical: 18,
                 alignItems:'center',
                 fontSize:18,
+                color: COLORS.text,
                 flex:1
               }}
+              placeholderTextColor={COLORS.placeholder}
               testID="emailField"
               accessibilityLabel="emailField"
               placeholder="Email"
@@ -97,8 +99,10 @@ export default function RegisterComponent({navigation}:any): React.JSX.Element {
                 paddingVertical: 18,
                 alignItems:'center',
                 fontSize:18,
+                color: COLORS.text,
                 flex:1
               }}
+              placeholderTextColor={COLORS.placeholder}
               accessibilityLabel="firstNameField"
               testID="firstNameField"
               placeholder="First Name"
@@ -118,8 +122,10 @@ export default function RegisterComponent({navigation}:any): React.JSX.Element {
                 paddingVertical: 18,
                 alignItems:'center',
                 fontSize:18,
+                color: COLORS.text,
                 flex:1
               }}
+              placeholderTextColor={COLORS.placeholder}
               accessibilityLabel="lastNameField"
               testID="lastNameField"
               placeholder="Last Name"
@@ -139,8 +145,10 @@ export default function RegisterComponent({navigation}:any): React.JSX.Element {
                 paddingVertical: 18,
                 alignItems:'center',
                 fontSize:18,
+                color: COLORS.text,
                 flex:1
               }}
+              placeholderTextColor={COLORS.placeholder}
               secureTextEntry={showPassword} 
               accessibilityLabel="passwordField"
               testID="passwordField"

@@ -38,10 +38,18 @@ export default function ResertPasswordComponent({navigation}:any): React.JSX.Ele
         <View style={styles.container}>
         
           <View style={{flex:0.3}}>
-            <TextInput  placeholder="Please enter your email"
-            testID="emailField"
-            onChangeText={setEmail}
-            accessibilityLabel="emailField"/>
+            <TextInput
+              style={{
+                color: COLORS.text,
+                fontSize: 18,
+                paddingVertical: 12,
+              }}
+              placeholder="Please enter your email"
+              placeholderTextColor={COLORS.placeholder}
+              testID="emailField"
+              onChangeText={setEmail}
+              accessibilityLabel="emailField"
+            />
             <Separator/>
             <Text style={styles.description}>
               A one time code will be sent.

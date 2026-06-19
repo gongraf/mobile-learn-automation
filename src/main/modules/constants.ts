@@ -4,7 +4,10 @@ const COLORS = {
   primary: '#25557a',
   secondary: '#39B68D',
   grey: '#CCCCCC',
-  background: "'#EEEEEE'",
+  background: '#EEEEEE',
+  text: '#222222',
+  placeholder: '#5F6D7A',
+  inputBackground: '#FFFFFF',
 };
 
 export {COLORS};

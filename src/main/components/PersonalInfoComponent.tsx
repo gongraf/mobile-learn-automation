@@ -77,8 +77,10 @@ export default function PersonalInfoComponent({ route, navigation }:any) : React
                 paddingVertical: 18,
                 alignItems:'center',
                 fontSize:18,
+                color: COLORS.text,
                 flex:1
               }}
+              placeholderTextColor={COLORS.placeholder}
               accessibilityLabel="addressInput"
               testID="addressInput"
               placeholder="Address"
@@ -99,8 +101,10 @@ export default function PersonalInfoComponent({ route, navigation }:any) : React
               paddingVertical: 18,
               alignItems:'center',
               fontSize:18,
+              color: COLORS.text,
               flex:1
             }}
+            placeholderTextColor={COLORS.placeholder}
             accessibilityLabel="cityInput"
             testID="cityInput"
             placeholder="City"
@@ -120,8 +124,10 @@ export default function PersonalInfoComponent({ route, navigation }:any) : React
               paddingVertical: 18,
               alignItems:'center',
               fontSize:18,
+              color: COLORS.text,
               flex:1
             }}
+            placeholderTextColor={COLORS.placeholder}
             accessibilityLabel="zipInput"
             testID="zipInput"
             placeholder="ZIP"
