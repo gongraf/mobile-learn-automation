@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     container: {
       flex:8,
       padding: 20,
-      backgroundColor: '#f7f7f7',
+      backgroundColor: COLORS.white,
       paddingTop:40,
       top:-20
     },
@@ -43,7 +43,8 @@ const styles = StyleSheet.create({
       flex:0.5,  
       fontSize: 24,
       fontWeight: 'bold',
-      top:-20
+      top:-20,
+      color: COLORS.text,
     },
     meta: {
       flex: 0.5,  
@@ -71,6 +72,7 @@ const styles = StyleSheet.create({
       flex:4,  
       fontSize: 16,
       marginTop: 20,
+      color: COLORS.text,
     },
   });
 
