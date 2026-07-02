@@ -26,9 +26,6 @@ Just as general guidance:
 ```bash
 # using npm
 npm install
-
-# OR using Yarn
-yarn install
 ```
 
 ## For iOS only
