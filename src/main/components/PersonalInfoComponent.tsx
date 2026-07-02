@@ -3,7 +3,7 @@ import { Alert } from "react-native"
 import { Image, ImageBackground, Keyboard, TextInput, TouchableHighlight, TouchableOpacity } from "react-native"
 import { SafeAreaView, Text, View } from "react-native"
 import BouncyCheckbox from "react-native-bouncy-checkbox"
-import DatePicker from 'react-native-date-picker'
+import DateTimePicker from '@react-native-community/datetimepicker';
 import { COLORS } from "../modules/constants"
 import { IUser } from "../modules/types"
 import Button from "./Button"
@@ -154,24 +154,24 @@ export default function PersonalInfoComponent({ route, navigation }:any) : React
         
             <Text style={{color:"black", fontSize:18}}>
               {firstPress==true?"Birth Date":
-              (date.getUTCMonth()+1)+"/"+date.getUTCDate()+"/"+date.getFullYear()}
+              (date.getMonth()+1)+"/"+date.getDate()+"/"+date.getFullYear()}
             </Text> 
           </TouchableOpacity>
-          <DatePicker
+          {open ? (
+            <DateTimePicker
               testID="datePicker"
               accessibilityLabel="datePicker"
-              modal
+              value={date}
               mode="date"
-              open={open}
-              date={date}
-              onConfirm={(date) => {
-                setOpen(false)
-                setDate(date)
+              display="spinner"
+              onChange={(_, selectedDate) => {
+                if (selectedDate) {
+                  setDate(selectedDate)
+                  setOpen(false)
+                }
               }}
-              onCancel={() => {
-                setOpen(false)
-              }}
-          />
+            />
+          ) : null}
           <Separator/>
         </View>
 
